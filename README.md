@@ -1,13 +1,12 @@
-# SliceNStitch: Continuous CP Decomposition of Sparse Tensor Streams
+# How Do Higher-Order Interactions Persist in Real-World Hypergraphs?
 
-Source code for SliceNStitch, described in the paper [SliceNStitch: Continuous CP Decomposition of Sparse Tensor Streams](https://arxiv.org/pdf/2102.11517.pdf) by [Taehyung Kwon](https://github.com/kbrother)\*, [Inkyu Park](https://github.com/yunik1004)\*, [Dongjin Lee](https://github.com/wooner49), and [Kijung Shin](https://kijungs.github.io/), to be presented at [ICDE 2021](https://icde2021.gr/).
+This repository contains the source code for the paper [How Do Higher-Order Interactions Persist in Real-World Hypergraphs?](https://) by [Hyunjin Choo](https://github.com/jin-choo/) and [Kijung Shin](https://kijungs.github.io/), to be presented at [](https://).
 
-**SliceNStitch** is an algorithm for continous CANDECOMP/PARAFAC (CP) decomposition, which has numerous time-critical applications.
-It has the following properties:
-
-* *Any time*: updates factor matrices immediately without having to wait until the current time period ends
-* *Fast*: with constant-time updates up to 464x faster than online methods
-* *Accurate*: with fitness comparable (specifically, 72 - 100%) to offline methods.
+In this work, we empirically investigate the persistence of higher-order interactions (HOIs) in 13 real-world hypergraphs from 6 domains.
+We define the measure of the persistence of HOIs, and using the measure, we closely examine the persistence at 3 different levels (hypergraphs, groups, and nodes), with a focus on patterns, predictability, and predictors.
+* Patterns: We reveal power-laws in the persistence and examine how they vary depending on the size of HOIs. Then, we explore relations between the persistence and 16 group- or node-level structural features, and we find some (e.g., entropy in the sizes of hyperedges including them) closely related to the persistence.
+* Predictibility: Based on the 16 structural features, we assess the predictability of the future persistence of HOIs. Additionally, we examine how the predictability varies depending on the sizes of HOIs and how long we observe HOIs.
+* Predictors: We find strong group- and node-level predictors of the persistence of HOIs, through Gini importance-based feature selection. The strongest predictors are (a) the number of hyperedges containing the HOI and (b) the average (weighted) degree of the neighbors of each node in the HOIs.
 
 ## Supplementary Document
 
