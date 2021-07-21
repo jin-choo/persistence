@@ -4,9 +4,9 @@ This repository contains the source code for the paper [How Do Higher-Order Inte
 
 In this work, we empirically investigate the persistence of higher-order interactions (HOIs) in 13 real-world hypergraphs from 6 domains.
 We define the measure of the persistence of HOIs, and using the measure, we closely examine the persistence at 3 different levels (hypergraphs, groups, and nodes), with a focus on patterns, predictability, and predictors.
-* Patterns: We reveal power-laws in the persistence and examine how they vary depending on the size of HOIs. Then, we explore relations between the persistence and 16 group- or node-level structural features, and we find some (e.g., entropy in the sizes of hyperedges including them) closely related to the persistence.
-* Predictibility: Based on the 16 structural features, we assess the predictability of the future persistence of HOIs. Additionally, we examine how the predictability varies depending on the sizes of HOIs and how long we observe HOIs.
-* Predictors: We find strong group- and node-level predictors of the persistence of HOIs, through Gini importance-based feature selection. The strongest predictors are (a) the number of hyperedges containing the HOI and (b) the average (weighted) degree of the neighbors of each node in the HOIs.
+* **Patterns**: We reveal power-laws in the persistence and examine how they vary depending on the size of HOIs. Then, we explore relations between the persistence and 16 group- or node-level structural features, and we find some (e.g., entropy in the sizes of hyperedges including them) closely related to the persistence.
+* **Predictibility**: Based on the 16 structural features, we assess the predictability of the future persistence of HOIs. Additionally, we examine how the predictability varies depending on the sizes of HOIs and how long we observe HOIs.
+* **Predictors**: We find strong group- and node-level predictors of the persistence of HOIs, through Gini importance-based feature selection. The strongest predictors are (a) the number of hyperedges containing the HOI and (b) the average (weighted) degree of the neighbors of each node in the HOIs.
 
 ## Supplementary Document
 
@@ -39,7 +39,76 @@ To install requirements, run the following command on your terminal:
 pip install -r requirements.txt
 ```
 
+## Measurement of the persistence of HOIs
 
+To measure the persistence of HOIs, run these commands:
+
+```
+./compile.sh
+./run.sh $dataset [interval|interval_front] $number_of_time_units $size_of_hois $maximum_size_of_he [0:others|1:coauthorship] $number_of_observed_time_units $number_of_observed_time_units_for_features
+```
+
+We provide the running example codes for measureing the persistence of HOIs, by running this command.
+
+```
+./run_batch.sh
+```
+
+
+## Preprocessing
+
+To preprocess before analyzing the persistence of HOIs, run these commands:
+
+```
+./count_time_units.sh
+./graph.sh
+```
+
+## Global Analysis: Persistence vs. Frequency
+
+To obtain the global patterns in the persistence of HOIs, run these commands:
+
+```
+python3 main.py -f $dataset -d global_analysis -m $number_of_time_units -i $number_of_observed_time_units
+python3 main.py -d global_stat
+```
+
+We provide the running example codes for global analysis, by running this command.
+
+```
+./global_analysis.sh
+```
+
+## Local Analysis: Features vs. Persistence
+
+To obtain the local patterns in the persistence of HOIs, run these commands:
+
+```
+python3 main.py -f $dataset -d [local_analysis|local_group_group|local_node_group|local_node_node] -m $number_of_time_units -i $number_of_observed_time_units -t $number_of_observed_time_units_for_features
+python3 main.py -d local_stat
+```
+
+We provide the running example codes for local analysis, by running this command.
+
+```
+./local_analysis.sh
+```
+
+## Predictability and Predictors
+
+To examine the predictability of the persistence of HOIs, run these commands:
+
+```
+python3 main.py -f $dataset -d [pred_1|pred_1_past|pred_2|pred_2_past] -m $number_of_time_units -i $number_of_observed_time_units -t $number_of_observed_time_units_for_features
+python3 main.py -d pred_feature_selection -i $number_of_observed_time_units -t $number_of_observed_time_units_for_features
+python3 main.py -d predictability -i $number_of_observed_time_units
+```
+
+We provide the running example codes for local analysis, by running this command.
+
+```
+./pred.sh
+```
 
 ## Reference
 
