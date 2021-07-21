@@ -81,7 +81,7 @@ We provide the running example codes for global analysis, by running this comman
 
 ## Local Analysis: Features vs. Persistence
 
-To obtain the local patterns in the persistence of HOIs, run these commands:
+To assess the local patterns in the persistence of HOIs, run these commands:
 
 ```
 python3 main.py -f $dataset -d [local_analysis|local_group_group|local_node_group|local_node_node] -m $number_of_time_units -i $number_of_observed_time_units -t $number_of_observed_time_units_for_features
