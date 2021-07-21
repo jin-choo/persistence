@@ -1,0 +1,12 @@
+asteval==0.9.23
+matplotlib==3.3.4
+networkx==2.5
+numpy==1.20.0
+pandas==1.3.0
+pdflatex==0.1.3
+powerlaw==1.4.6
+scikit-learn==0.24.1
+scipy==1.6.0
+sklearn==0.0
+statsmodels==0.12.2
+tqdm @ file:///tmp/build/80754af9/tqdm_1605303662894/work
