@@ -94,4 +94,4 @@ python3 main.py -f coauth-MAG-History -d local_node_node -m 219 -i 10 -t 5
 
 
 
-python3 main.py -d global_stat
+python3 main.py -d local_stat
