@@ -13,9 +13,8 @@ We define the measure of the persistence of HOIs, and using the measure, we clos
 Please see [supplementary](./doc/supplementary.pdf).
 
 ## Datasets
-All parsed datasets are available at this [link](https://www.dropbox.com/sh/lha0oevqos6jxn9/AAAz3Xkql2aKwcnKmX3kt357a?dl=0).
-The source of each dataset is listed below.
-| Name          | Structure                                       | Size                   | # Non-zeros | Source   |
+All datasets are available at this [link](https://www.cs.cornell.edu/~arb/data/).
+| Domain    | Structure                                       | Size                   | # Non-zeros | Source   |
 | ------------- |:-----------------------------------------------:| :---------------------:| :----------:| :-------:|
 | Divvy Bikes   | sources x destinations x time (minutes)         | 673 x 673 x 525594     | 3.82M       | [Link](https://www.divvybikes.com/system-data) |
 | Chicago Crime | communities x crime types x time (hours)        | 77 x 32 x 148464       | 5.33M       | [Link](http://frostt.io/) |
@@ -167,13 +166,5 @@ RMSE	Fitness
 If you use this code as part of any research, please cite the following paper.
 
 ```
-@inproceedings{kwon2021slicenstitch,
-  title={Slicenstitch: Continuous cp decomposition of sparse tensor streams},
-  author={Kwon, Taehyung and Park, Inkyu and Lee, Dongjin and Shin, Kijung},
-  booktitle={2021 IEEE 37th International Conference on Data Engineering (ICDE)},
-  pages={816--827},
-  year={2021},
-  organization={IEEE}
-}
+
 ```
-{"mode":"full","isActive":false}
