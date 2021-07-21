@@ -1,1 +1,0 @@
-java -Xmx56g -Xms56g -cp ./persistence-1.0.jar:./lib/fastutil-8.4.2.jar:./lib/commons-math3-3.6.1.jar persistence.Run $@
