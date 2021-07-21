@@ -10,7 +10,7 @@ We define the measure of the persistence of HOIs, and using the measure, we clos
 
 ## Supplementary Document
 
-Please see [supplementary](./doc/supplementary.pdf).
+Please see [supplementary](./supplementary.pdf).
 
 ## Datasets
 
