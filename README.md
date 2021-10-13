@@ -1,4 +1,4 @@
-# How Do Higher-Order Interactions Persist in Real-World Hypergraphs?
+# On the Persistence of Higher-Order Interactions in Real-World Hypergraphs
 
 This repository contains the source code for the paper [How Do Higher-Order Interactions Persist in Real-World Hypergraphs?](https://).
 
