@@ -1,6 +1,6 @@
 # On the Persistence of Higher-Order Interactions in Real-World Hypergraphs
 
-This repository contains the source code for the paper [On the Persistence of Higher-Order Interactions in Real-World Hypergraphs](https://) by Hyunjin Choo(https://github.com/jin-choo/) and Kijung Shin(https://kijungs.github.io/), to be presented at ICDE 2021(https://www.siam.org/conferences/cm/conference/sdm22).
+This repository contains the source code for the paper [On the Persistence of Higher-Order Interactions in Real-World Hypergraphs](https://) by [Hyunjin Choo](https://github.com/jin-choo/) and [Kijung Shin](https://kijungs.github.io/), to be presented at [SDM22](https://www.siam.org/conferences/cm/conference/sdm22).
 
 In this work, we empirically investigate the persistence of higher-order interactions (HOIs) in 13 real-world hypergraphs from 6 domains.
 We define the measure of the persistence of HOIs, and using the measure, we closely examine the persistence at 3 different levels (hypergraphs, groups, and nodes), with a focus on patterns, predictability, and predictors.
