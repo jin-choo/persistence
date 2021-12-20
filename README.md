@@ -1,4 +1,4 @@
-# On the Persistence of Higher-Order Interactions in Real-World Hypergraphs
+# On the Persistence of Higher-Order Interactions in Real-World Hypergraphs (SDM22)
 
 This repository contains the source code for the paper [On the Persistence of Higher-Order Interactions in Real-World Hypergraphs](https://) by [Hyunjin Choo](https://github.com/jin-choo/) and [Kijung Shin](https://kijungs.github.io/), to be presented at [SDM22](https://www.siam.org/conferences/cm/conference/sdm22).
 
