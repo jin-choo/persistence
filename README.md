@@ -114,5 +114,12 @@ We provide the running example codes for local analysis, by running this command
 
 This code is free and open source for only academic/research purposes (non-commercial). If you use this code as part of any published research, please acknowledge the following paper.
 ```
-
+@inproceedings{choo2022persistence,
+  title={On the persistence of higher-order interactions in real-world hypergraphs},
+  author={Choo, Hyunjin and Shin, Kijung},
+  booktitle={Proceedings of the 2022 SIAM International Conference on Data Mining (SDM)},
+  pages={163--171},
+  year={2022},
+  organization={SIAM}
+}
 ```
