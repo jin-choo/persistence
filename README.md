@@ -117,9 +117,7 @@ This code is free and open source for only academic/research purposes (non-comme
 @inproceedings{choo2022persistence,
   title={On the persistence of higher-order interactions in real-world hypergraphs},
   author={Choo, Hyunjin and Shin, Kijung},
-  booktitle={Proceedings of the 2022 SIAM International Conference on Data Mining (SDM)},
-  pages={163--171},
-  year={2022},
-  organization={SIAM}
+  booktitle={2022 SIAM International Conference on Data Mining (SDM)},
+  year={2022}
 }
 ```
